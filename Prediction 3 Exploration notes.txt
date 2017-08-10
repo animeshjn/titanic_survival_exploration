@@ -1,0 +1,28 @@
+Predictions 3 Exploration notes
+finding when females are least likely to survive:
+
+-Based on Age the data is mixed 
+-Based on Age and Pclass the data shows clear distinction
+- Plotting numbers / Age when Pclass =3 shows that all the females from age 40-50 in class 3 did not survived. 
+- hence the condition which improves accuracy
+
+finding when Males are most likely to survive
+
+-Most of the Males with Age less than 10 survived
+-Most of the Males with Age less than 10 who did not survived belongs to Pclass = 3 category so those can be eliminated.
+
+
+Variables tried to change to predict:
+Pclass, Parch,  SibSp, Age
+While combination of Parch with others were not that distinguishable where as predictions with Pclass and its combination with Age and 
+
+Statistical Method Used:
+Decision Tree on features Sex, Age and Pclass
+ 
+Implementation:
+ The deision tree is implemented using if - elif - else ladder (conditional statements) in the prediction3 model.
+
+
+
+
+
